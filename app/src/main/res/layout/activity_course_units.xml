@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".courseUnits">
+
+    <TextView
+        android:id="@+id/fu1"
+        android:layout_marginTop="10dp"
+        android:text="@string/u1"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/fu2"
+        android:layout_below="@id/fu1"
+        android:layout_marginTop="10dp"
+        android:text="@string/u2"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/fu3"
+        android:layout_below="@id/fu2"
+        android:layout_marginTop="10dp"
+        android:text="@string/u3"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/fu4"
+        android:layout_below="@id/fu3"
+        android:layout_marginTop="10dp"
+        android:text="@string/u4"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/fu5"
+        android:layout_below="@id/fu4"
+        android:layout_marginTop="10dp"
+        android:text="@string/u5"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

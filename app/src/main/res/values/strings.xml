@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">firstApp</string>
+    <string name="u1">Mobile Programming</string>
+    <string name="u2">Unix Programming</string>
+    <string name="u3">Control Systems</string>
+    <string name="u4">Optoelectronics</string>
+    <string name="u5">Project Management</string>
+
+</resources>
